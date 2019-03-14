@@ -33,7 +33,7 @@ namespace Aplicacion_de_prueba
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //PELOS DESARROLLO
+            //PELOS DESARROLLO PULL REQ
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
