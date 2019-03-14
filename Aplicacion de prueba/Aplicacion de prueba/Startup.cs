@@ -19,8 +19,6 @@ namespace Aplicacion_de_prueba
             Configuration = configuration;
 
             Configuration = configuration; //nuevo
-
-            Configuration = configuration; //nuevo2
         }
 
         public IConfiguration Configuration { get; }
