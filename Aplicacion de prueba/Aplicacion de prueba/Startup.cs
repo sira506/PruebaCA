@@ -17,6 +17,8 @@ namespace Aplicacion_de_prueba
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
+            Configuration = configuration; //nuevo
         }
 
         public IConfiguration Configuration { get; }
