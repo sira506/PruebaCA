@@ -12,7 +12,7 @@ namespace Aplicacion_de_prueba
 {
     public class Program
     {
-        //cambios2
+        //pruebas en desarollo que van para prod por pull request
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
