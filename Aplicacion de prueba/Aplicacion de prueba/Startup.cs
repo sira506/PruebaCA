@@ -18,7 +18,7 @@ namespace Aplicacion_de_prueba
         {
             Configuration = configuration;
 
-            Configuration = configuration; //nuevo
+            Configuration = configuration; //nuevo 
         }
 
         public IConfiguration Configuration { get; }
@@ -33,6 +33,7 @@ namespace Aplicacion_de_prueba
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            //PELOS
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
